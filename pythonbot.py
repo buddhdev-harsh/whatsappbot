@@ -28,7 +28,7 @@ while True:
 		action.perform()
 		
 		bot_users[name] = True
-		response = "hi this is harsh bot here you can leave msg or wait for him to get online."
+		response = "hi this is bot here you can leave msg or wait for him to get online."
 		#find element of text box to write message
 		text_box = browser.find_element_by_xpath('//*[@id="main"]/footer/div[1]/div[2]/div/div[2]')
 		#find element of search box to send it after writing message
