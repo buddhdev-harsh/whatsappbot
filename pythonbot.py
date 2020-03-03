@@ -14,6 +14,7 @@ sleep(10)
 
 bot_users = {} # A dictionary that stores all the users that sent activate bot 
 while True:
+	name = ''
 	unread = browser.find_elements_by_class_name("_1ZMSM") # The green dot tells us that the message is new
 	
 	if len(unread) > 0:
@@ -26,9 +27,10 @@ while True:
 		action.perform()
 		action.click()
 		action.perform()
-		
+		sleep(4)
+		name = browser.find_element_by_class_name('_1lpto').text
 		bot_users[name] = True
-		response = "hi this is bot here you can leave msg or wait for him to get online."
+		response = "hi " +name+" this is bot here you can leave msg or wait for him to get online."
 		#find element of text box to write message
 		text_box = browser.find_element_by_xpath('//*[@id="main"]/footer/div[1]/div[2]/div/div[2]')
 		#find element of search box to send it after writing message
@@ -40,9 +42,10 @@ while True:
 		sleep(2)
 		#send.
 		send_button.click()
-
+		
+		
+		del bot_users[name]
 			
 				
 			
 		
-	sleep(2)
