@@ -1,0 +1,23 @@
+{
+	"intents":[
+		{
+		"tag":"greetings",
+		"patterns":["Hi","How Are You?","Is anyone there?","Hello","whats up?","Good Day"],
+		"responses":["Hello!","good to see you again!","hi there , how can i help you?","nothing much you say!"],
+		"context_set":""
+		},
+		{
+		"tag":"goodbye",
+		"patterns":["see you","see you later","bye","ttyl","Good bye","bbye"],
+		"responses":["yeah bye!","see you again!","bye there","bye TC!","see you later","b-bye"],
+		"context_set":""
+		},
+		{
+		"tag":"doing",
+		"patterns":["su kare 6","what are you doing","skc","su kre?"],
+		"responses":["listening songs","chilling","time-pass","chatting","whatsappeing"],
+		"context_set":""
+		}
+		
+]
+}
