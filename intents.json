@@ -17,6 +17,12 @@
 		"patterns":["su kare 6","what are you doing","skc","su kre?"],
 		"responses":["listening songs","chilling","time-pass","chatting","whatsappeing"],
 		"context_set":""
+		},
+		{
+		"tag":"noob",
+		"patterns":["noobda","nubeshwar","noob"],
+		"responses":["tu *noob*","tum to nubeshwar ho be","are noob honge tum be ","mind your language noob"],
+		"context_set":""
 		}
 		
 ]
