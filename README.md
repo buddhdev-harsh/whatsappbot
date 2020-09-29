@@ -1,3 +1,6 @@
-
-pythonbot.py contains whatsapp bot which only answers that your busy and it can take message 
-response.py contains code that can work as proper bot to chat with any user with machine learning code
+# whatsappbot
+## it has functionality to reply automatically to the message it has received
+## it is trained on strong NLP concepts
+## customizable database for everyone
+## after starting bot user will still be able to control it manually
+## has faster and relative replying to messages
